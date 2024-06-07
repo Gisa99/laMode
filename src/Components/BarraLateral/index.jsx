@@ -3,6 +3,7 @@ import ItemNavegacao from "./ItemNavegacao"
 import logo from "../../imagens/logo.png";
 
 const AsideEstilizada = styled.aside`
+  width: 15%;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -14,10 +15,11 @@ const ListaEstilizada = styled.ul`
     list-style: none;
     padding:0;
     margin: 0;
-    width: 212px;    
+    width: 90%;
+    
 `
 const LogoEstilizada = styled.img`
-  max-width: 212px;
+  max-width: 80%;
 `
 
 const BarraLateral = () => {

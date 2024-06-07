@@ -15,33 +15,33 @@ const FundoGradiente = styled.div`
   background: linear-gradient(174.61deg, #333333 4.16%, #4C4C4C 48%, #4c3d38 96.76%);
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 const AppContainer = styled.div`
-  width: 1500px;
-  min-width: 1500px;
-  max-width: 100%;
-  margin: 0 auto;
+  padding-right: 2rem;
+  
 `;
 
 const MainContainer = styled.main`
   display: flex;
-  gap: 24px;
   justify-content: end;
-  margin-left: 4rem;
+  width: 100%;
 `;
 
 const ConteudoGaleria = styled.section`
   display: flex;
   flex-direction: column;
-  min-width: 100%;
+  width: 80%;
 `;
 
 const Mensagem = styled.div`
-  text-align: center;
+  text-align: left;
   color: #a39e9e;
-  font-size: 32px;
-  margin-top: 30px;
+  font-size: 2.5rem;
+  margin-top: 2rem;
 `;
 
 const App = () => {
