@@ -1,0 +1,15 @@
+Utilizar o UseEffect para filtrar o conteúdo
+
+Sempre que termoBusca ou tag muda:
+
+O useEffect é acionado.
+A lista de fotos é filtrada de acordo com os critérios definidos.
+fotosDaGaleria é atualizada com as fotos que passam pelos filtros.
+Interações do Usuário
+Busca por Título: Quando o usuário digita algo na barra de busca, setTermoBusca atualiza o termoBusca e o useEffect refaz o filtro.
+Filtragem por Tag: Quando o usuário clica em uma tag, setTag atualiza a tag e o useEffect refaz o filtro.
+Resumo
+Estados: Guardam a lista de fotos e os critérios de filtro (termo de busca e tag).
+useEffect: Refaz o filtro toda vez que o termo de busca ou a tag mudam.
+Filtragem: Combina a lógica de filtragem por tag e por título para decidir quais fotos mostrar.
+Essa estrutura garante que a galeria de fotos esteja sempre atualizada com base nos critérios de filtro aplicados pelo usuário.

@@ -1,0 +1,72 @@
+[
+    {
+        "titulo": "Calça Mom",
+        "fonte":"LaMode",
+        "path": "/imagens/foto1.jpg",
+        "id": "0",
+        "tagId": "1"
+    },
+    {
+        "titulo": "Jeans",
+        "fonte":"LaMode",
+        "path": "/imagens/foto2.jpg",
+        "id": "1",
+        "tagId": "1"
+    },
+    {
+        "titulo": "Vestido Preto Básico",
+        "fonte":"LaMode",
+        "path": "/imagens/foto3.jpg",
+        "id": "2",
+        "tagId": "2"
+    },
+    {
+        "titulo": "Jaqueta Preta",
+        "fonte":"LaMode",
+        "path": "/imagens/foto4.jpg",
+        "id": "3",
+        "tagId": "3"
+    },
+    {
+        "titulo": "Look Winter",
+        "fonte":"LaMode",
+        "path": "/imagens/foto5.jpg",
+        "id": "4",
+        "tagId": "3"
+    },
+    {
+        "titulo": "Scarpin Básico",
+        "fonte":"LaMode",
+        "path": "/imagens/foto6.jpg",
+        "id": "5",
+        "tagId": "4"
+    },
+    {
+        "titulo": "Sobretudo Fashionista",
+        "fonte":"LaMode",
+        "path": "/imagens/foto7.jpg",
+        "id": "6",
+        "tagId": "3"
+    },
+    {
+        "titulo": "Conjunto Winter",
+        "fonte":"LaMode",
+        "path": "/imagens/foto8.jpg",
+        "id": "7",
+        "tagId": "3"
+    },
+    {
+        "titulo": "Look Winter Laranja",
+        "fonte":"LaMode",
+        "path": "/imagens/foto9.jpg",
+        "id": "8",
+        "tagId": "3"
+    },
+    {
+        "titulo": "Vestido Summer",
+        "fonte":"LaMode",
+        "path": "/imagens/foto10.jpg",
+        "id": "9",
+        "tagId": "2"
+    }
+]
