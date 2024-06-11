@@ -11,8 +11,18 @@ const ItemListaEstilizado = styled.li`
     display: flex;
     align-items: center;
     gap: 22px;
+    transition: .3s ease;
+    &:hover{
+        color: #AF6A65;
+    }
     img{
         max-height: 35px;
+        @media(max-width: 768px){
+            max-height: 25px;
+        }
+    }
+    @media(max-width: 768px){
+        font-size: 18px;
     }
 `
 

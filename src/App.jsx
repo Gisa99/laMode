@@ -22,6 +22,9 @@ const FundoGradiente = styled.div`
 
 const AppContainer = styled.div`
   padding-right: 2rem;
+  @media(max-width: 900px){
+    padding: 0;
+  }
   
 `;
 
@@ -35,6 +38,9 @@ const ConteudoGaleria = styled.section`
   display: flex;
   flex-direction: column;
   width: 80%;
+  @media(max-width: 900px){
+    width: 100%;
+  }
 `;
 
 const Mensagem = styled.div`
@@ -42,6 +48,15 @@ const Mensagem = styled.div`
   color: #a39e9e;
   font-size: 2.5rem;
   margin-top: 2rem;
+  @media(max-width: 767px){
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  @media(min-width: 768px) and (max-width: 900px){
+    text-align: center;
+    padding: 2rem 2rem 2rem 3.5rem;
+    width: 80%;
+  }
 `;
 
 const App = () => {

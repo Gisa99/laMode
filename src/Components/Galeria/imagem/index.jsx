@@ -9,13 +9,16 @@ const Figure = styled.figure`
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinha itens ao centro */
-    justify-content: center; /* Centraliza itens verticalmente */
+    align-items: center; 
+    justify-content: center; 
     & > img {
         width: 100%;
-        height: 450px;  /* Defina a altura fixa desejada para a imagem */
-        object-fit: cover;  /* Garante que a imagem preencha o contêiner */
+        height: 450px;  
+        object-fit: cover;  
         border-radius: 20px 20px 0 0;
+        @media(max-width: 767px){
+            border-radius: 0;
+        }
     }
     figcaption {
         background-color: #AF6A65;
@@ -23,7 +26,7 @@ const Figure = styled.figure`
         color: white;
         box-sizing: border-box;
         padding: 12px;
-        width: 100%; /* Garante que o figcaption ocupe a largura total */
+        width: 100%; 
         h3 {
             font-family: 'PoppinsRegular';
         }
@@ -34,6 +37,12 @@ const Figure = styled.figure`
             margin: 0;
             font-size: 16px;
         }
+        @media(max-width: 767px){
+            border-radius: 0;
+        }
+    }
+    @media(min-width: 768px) and (max-width: 900px){
+        width: ${props => props.$expandida ? '90%' : '370px'};
     }
 `;
 

@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 const HeaderEstilizado = styled.header`
-    padding: 30px 0;
+    padding:  0;
+    margin: 1rem 1rem 1rem 0;
     display: flex;
     justify-content:end;
     align-items: center;
@@ -21,6 +22,12 @@ const CampoTexto = styled.input`
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
+    @media (max-width: 768px){
+        width: 75%;
+        font-size: 16px;
+        margin: 1rem;
+    }
+        
 `;
 
 const Cabecalho = ({ setFiltro,filtro }) => {

@@ -7,6 +7,18 @@ const BarraTags = styled.div`
   align-items: center;
   gap: 64px;
   margin-top: 56px;
+  @media(max-width: 768px){
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+  }
+  @media(min-width: 768px) and (max-width: 900px){
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+    align-items: start;
+    padding-left: 1rem;
+  }
 `
 
 const TituloTags = styled.p`
@@ -27,12 +39,27 @@ const Tag = styled.button`
   &:hover {
     border-color: #AF6A65;
   }
+  @media(max-width: 768px){
+     font-size: 18px;
+  }
 `;
 
 const Div = styled.div`
   display: flex;
   gap: 24px;
   justify-content: end;
+  @media(max-width: 768px){
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 .2rem;
+    gap: .8rem;
+  }
+  @media(min-width: 768px) and (max-width: 900px){
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 0 .2rem;
+    gap: .8rem;
+  }
 `;
 
 const Tags = ({ setTag }) => {

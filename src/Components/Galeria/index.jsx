@@ -19,9 +19,10 @@ const ImagensContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  @media(min-width: 768px) and (max-width: 900px){
+    justify-content: center;
+  }
 `;
-
-
 
 const Botao = styled.button`
   background-color: transparent;
@@ -37,6 +38,15 @@ const Botao = styled.button`
   transition: 0.3s ease;
   &:hover {
     background-color: #AF6A65;
+  }
+  @media(max-width: 767px){
+    font-size: 16px;
+    width: 40%;
+    margin: 1rem auto;
+  }
+  @media(min-width: 768px) and (max-width: 900px){
+    width: 30%;
+    margin: 1.5rem auto;
   }
 `;
 
