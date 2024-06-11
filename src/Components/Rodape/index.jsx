@@ -29,10 +29,12 @@ const Contato = styled.div`
 const Rodape = () =>{
     return(
         <RodapeEstilizado>
-             &copy; {new Date().getFullYear()} LaMode Moda e Confecções LTDA. Todos os direitos reservados.
+             &copy; {new Date().getFullYear()} LaMode App desenvolvido por Gisele França.
              <Contato>
                 <a href="https://github.com/Gisa99" target="_blank"><img src={github} alt="ícone github"/></a>
                 <a href="https://www.linkedin.com/in/giselefranca-devfrontend/" target="_blank"><img src={linkedin} alt="ícone linkedin"/></a>
+                <a href="https://portfolio-nine-gules-70.vercel.app/" target="_blank"><img src={portfolio} alt="ícone portfolio"/></a>
+                
                 {/*<a href="https://portfolio-nine-gules-70.vercel.app/" target="_blank"><img src={portfolio} alt="ícone Portfólio"/></a>*/}
              </Contato>
 
