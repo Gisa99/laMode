@@ -43,6 +43,7 @@ const Botao = styled.button`
   @media(max-width: 767px){
     font-size: 16px;
     width: 40%;
+    margin: 1rem auto;
     
   }
   @media(min-width: 768px) and (max-width: 900px){
